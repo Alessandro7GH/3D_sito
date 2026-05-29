@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { margin: 0; padding: 0; }
+    body { background: transparent; }
+    model-viewer { width: 100vw; height: 100vh; --poster-color: transparent; }
+  </style>
+</head>
+<body>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <model-viewer
+    src="./Impianto_1.glb"
+    auto-rotate
+    camera-controls
+    exposure="1"
+    shadow-intensity="1"
+    environment-image="https://modelviewer.dev/shared-assets/environments/moon_1k.hdr"
+  ></model-viewer>
+</body>
+</html>
